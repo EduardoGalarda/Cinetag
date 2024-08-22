@@ -1,0 +1,31 @@
+.container {
+    padding: 0 0 1rem 0;
+    margin-top: 1rem;
+    width: 282px;
+    background-color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.poster {
+    width: 100%; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container h2, .favorite {
+    padding: 0 1rem;
+}
+
+.favorite {
+    width: 25px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--black);
+    text-align: left;
+}
